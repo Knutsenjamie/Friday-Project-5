@@ -11,4 +11,10 @@ export default class Expector {
     this.mercuryexpect /= 0.24;
     return (this.mercuryexpect -= 78.54);
   }
+
+  venusLifeExpect () {
+    this.venusexpect -= 25;
+    this.venusexpect /= 0.62;
+    return (this.venusexpect -= 78.54);
+  }
 }

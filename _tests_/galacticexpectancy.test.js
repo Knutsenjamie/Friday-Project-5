@@ -16,7 +16,7 @@ describe ('Expector', () => {
   });
 
   test ('should correctly return users life expectancy on venus', () => {
-    const expector = new Expector (78.54)
-    expect (expector.venusLifeExpect()).toEqual(7.814838709677419)
+    const expector = new Expector (78.54,78.54,)
+    expect (expector.venusLifeExpect()).toEqual(7.814838709677417)
   });
 });
