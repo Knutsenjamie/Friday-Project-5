@@ -15,4 +15,9 @@ export default class Expector {
     this.venusexpect /= 0.62;
     return (this.venusexpect -= 78.54);
   }
+
+  marsLifeExpect () {
+    this.marsexpect /= 1.88;
+    return ([this.marsexpect -= 78.54, "Sorry, you'd already be dead!"]);
+  }
 }
