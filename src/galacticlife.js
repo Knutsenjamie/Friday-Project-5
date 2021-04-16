@@ -5,4 +5,12 @@ export default class Converter {
     this.mars = mars
     this.jupiter = jupiter
 }
+
+  addAge () {
+    this.mercury += 25;
+    this.venus += 25;
+    this.mars += 25;
+    this.jupiter += 25;
+    return (this.venus);
+  }
 }
