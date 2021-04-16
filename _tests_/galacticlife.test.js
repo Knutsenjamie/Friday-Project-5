@@ -20,4 +20,9 @@ describe ('Converter', () => {
     expect (converter.divideAgeVenus()).toEqual(40.32258064516129)
   });
 
+  test ('should correctly divide by mars planetary years and convert age', () => {
+    const converter = new Converter(25,25,25)
+    expect (converter.divideAgeMars()).toEqual(13.297872340425533)
+  });
+
 });
