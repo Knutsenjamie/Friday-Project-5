@@ -1,4 +1,4 @@
-import Expector from './../src/galacticlife.js'
+import Expector from './../src/galacticexpectancy'
 
 describe ('Expector', () => {
   
