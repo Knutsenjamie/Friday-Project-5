@@ -12,7 +12,7 @@ describe ('Converter', () => {
 
   test ('should correctly divide by mercury planetary years and convert age', () => {
     const converter = new Converter(25)
-    expect (converter.mercurycon).toEqual(104.16)
-  }
+    expect (converter.divideAge()).toEqual(104.16666666666667)
+  });
 
 });

@@ -6,11 +6,8 @@ export default class Converter {
     this.jupitercon = jupitercon
 }
 
-  // divideAge () {
-  //   this.conversion1 /= 25;
-  //   this.venus /= 25;
-  //   this.mars /= 25;
-  //   this.jupiter /= 25;
-  //   return (this.mercury);
-  // }
+  divideAge () {
+    this.mercurycon /= 0.24;
+    return (this.mercurycon);
+  }
 }
