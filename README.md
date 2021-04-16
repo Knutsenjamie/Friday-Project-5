@@ -1,4 +1,4 @@
-# _Title_
+# _Galactic Age Translator_
 
 
 ### _Friday Project 5_
@@ -14,9 +14,15 @@
 * _Visual Studio Code_
 * _JavaScript_
 * _jQuery_
+* _Node_
+* _Webpack_
+* _Jest_
+* _Babel_
+* _ES Lint_
 
 
 ## Description: 
+This project was designed to showcase how one would implement webpack, babel, node modules, and run tests with jest. This Galactic Age Translator project was solely created to showcase functionality and using jest to test said functionality."
 
 
 ## Setup/Installation Requirements
@@ -30,7 +36,7 @@ https://github.com/Knutsenjamie/Friday-Project-5
 ### Installation
 1. Open terminal
 2. Input these commands into terminal's command line:
-3. cd desktop
+3. 'cd desktop'
 4. Clone https://github.com/Knutsenjamie/Friday-Project-5
 5. Run the command 'code .' in your computer's terminal
 6. Open VS Code or other preffered text editor terminal within the project file
