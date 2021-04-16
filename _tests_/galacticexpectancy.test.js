@@ -10,23 +10,8 @@ describe ('Expector', () => {
   expect (expector.jupiterexpect).toEqual(78.54)
   });
 
-  test ('should correctly return users life expectancy on mercury', () => {
-    const expector = new Expector (53.54)
-    expect (expector.mercLifeExpect()).toEqual(144.54333333333335)
-  });
-
-  test ('should correctly return users life expectancy on venus', () => {
-    const expector = new Expector (53.54,53.54,)
-    expect (expector.venusLifeExpect()).toEqual(7.814838709677417)
-  });
-
-  test ('should correctly return users life expectancy on mars', () => {
-    const expector = new Expector (53.54,53.54,53.54)
-    expect (expector.marsLifeExpect()).toEqual([-50.06127659574469, "Sorry, you'd already be dead!"])
-  });
-
-  test ('should correctly return users life expectancy on jupiter', () => {
+  test ('should correctly return users life expectancy on all planets', () => {
     const expector = new Expector (53.54,53.54,53.54,53.54)
-    expect (expector.jupiterLifeExpect()).toEqual([-74.02566610455312, "Sorry, you'd already be dead!"])
+    expect (expector.lifeExpect()).toEqual([[144.54333333333335, "You'd still live about 145 more years on Mercury!"], [7.814838709677417, "You'd still live about 8 more years on Venus!"], [-50.06127659574469, "-50? Sorry, you'd already be dead!"], [-74.02566610455312, "-74? Sorry, you'd already be dead!"]])
   });
 });

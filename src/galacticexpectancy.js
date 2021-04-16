@@ -6,23 +6,11 @@ export default class Expector {
     this.jupiterexpect = jupiterexpect
   }
 
-  mercLifeExpect () {
+  lifeExpect () {
     this.mercuryexpect /= 0.24;
-    return (this.mercuryexpect -= 78.54);
-  }
-
-  venusLifeExpect () {
     this.venusexpect /= 0.62;
-    return (this.venusexpect -= 78.54);
-  }
-
-  marsLifeExpect () {
     this.marsexpect /= 1.88;
-    return ([this.marsexpect -= 78.54, "Sorry, you'd already be dead!"]);
-  }
-
-  jupiterLifeExpect () {
-    this.jupiterexpect /= 11.86;
-    return ([this.jupiterexpect -= 78.54, "Sorry, you'd already be dead!"]);
+    this.jupiterexpect /= 11.86
+    return ([[this.mercuryexpect -= 78.54, "You'd still live about 145 more years on Mercury!"], [this.venusexpect -= 78.54, "You'd still live about 8 more years on Venus!"], [this.marsexpect -= 78.54, "-50? Sorry, you'd already be dead!"], [this.jupiterexpect -= 78.54, "-74? Sorry, you'd already be dead!"]]);
   }
 }
