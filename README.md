@@ -1,7 +1,7 @@
-# _Pizza Parlor_
+# _Title_
 
 
-### _Friday Project 3_
+### _Friday Project 5_
 
 ##### By:
 #####  _**Jamie Knutsen**_ _©2021_
@@ -15,30 +15,30 @@
 * _JavaScript_
 * _jQuery_
 
+
 ## Description: 
-This application was designed to showcase undertsanding of using javascript objects, prototypes, and constructors by making a website for ordering pizza. 
 
-## Tests/Specs
-
-### Describe: Pizza();
-Test: "It should make a constructor for the pizza toppings/sauce selected drop-down variables and pass them into the constructor" 
-Code: Pizza(veggie, meat, cheese, sauce, size);
-Expected Output: Pizza(artichokes, chicken, mozzarella, alfredo, mega);
-
-### Describe Pizza.prototype.pizzaCost();
-Test: "It should calculate the pizza's price based off of the size option the user selects"
-Code: if (this.size === "small")
-Expected Output: this.pizzaPrice = "10.00"
 
 ## Setup/Installation Requirements
 _You can view this webpage by checking out the url:_
-https://github.com/Knutsenjamie/Friday-Project-4
+https://github.com/Knutsenjamie/Friday-Project-5
+
+### Prerequisites
+* [Node] (https://nodejs.org/en/)
+* A text editor such as [VS Code] (https://code.visualstudio.com/)
+
+### Installation
 1. Open terminal
 2. Input these commands into terminal's command line:
-
-* cd desktop
-* Clone https://github.com/Knutsenjamie/Friday-Project-4
-* code .
+3. cd desktop
+4. Clone https://github.com/Knutsenjamie/Friday-Project-5
+5. Run the command 'code .' in your computer's terminal
+6. Open VS Code or other preffered text editor terminal within the project file
+7. To start a development server and view the project in the browser:
+  * Run the command 'npm install' to install dependencies
+  * Optionally, run the command 'npm run build' to make a bundle of the files
+  * Finally, run the command 'npm run start' to start a development server
+8. To run tests, navigate to 'Friday-Project-5/' in your terminal and run the command 'npm run test'
 
 ## Licensing
 
