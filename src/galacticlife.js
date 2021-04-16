@@ -1,4 +1,4 @@
-export default class Age {
+export default class Converter {
   constructor (conversion1,conversion2,conversion3,conversion4) {
     // this.conversion1 = conversion1
     // this.conversion2 = conversion2
