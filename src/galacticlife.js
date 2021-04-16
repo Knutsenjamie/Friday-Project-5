@@ -16,4 +16,9 @@ export default class Converter {
     return (this.venuscon);
   }
 
+  divideAgeMars () {
+    this.marscon /= 1.88;
+    return (this.marscon);
+  }
+
 }
