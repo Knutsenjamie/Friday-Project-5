@@ -6,8 +6,9 @@ export default class Converter {
     this.jupitercon = jupitercon
 }
 
-  divideAge () {
+  divideAgeMerc () {
     this.mercurycon /= 0.24;
     return (this.mercurycon);
   }
+
 }

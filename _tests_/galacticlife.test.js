@@ -12,7 +12,12 @@ describe ('Converter', () => {
 
   test ('should correctly divide by mercury planetary years and convert age', () => {
     const converter = new Converter(25)
-    expect (converter.divideAge()).toEqual(104.16666666666667)
+    expect (converter.divideAgeMerc()).toEqual(104.16666666666667)
+  });
+
+  test ('should correctly divide by venus planetary years and convert age', () => {
+    const converter = new Converter(25)
+    expect (converter.divideAgeVenus()).toEqual(40.3225806)
   });
 
 });
