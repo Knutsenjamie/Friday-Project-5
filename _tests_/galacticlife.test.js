@@ -15,4 +15,8 @@ describe ('Converter', () => {
     expect (converter.divideAge()).toEqual([104.16666666666667,40.32258064516129,13.297872340425533,2.1079258010118043])
   });
 
+  test ('should correctly return users life expectancy on mercury', () => {
+    const converter = new Converter (53.54)
+    expect (converter.mercLifeExpect()).toEqual(223.083333333333333)
+  }
 });
