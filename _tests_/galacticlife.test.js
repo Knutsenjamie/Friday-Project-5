@@ -16,8 +16,8 @@ describe ('Converter', () => {
   });
 
   test ('should correctly divide by venus planetary years and convert age', () => {
-    const converter = new Converter(25)
-    expect (converter.divideAgeVenus()).toEqual(40.3225806)
+    const converter = new Converter(25,25)
+    expect (converter.divideAgeVenus()).toEqual(40.32258064516129)
   });
 
 });

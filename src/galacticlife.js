@@ -11,4 +11,9 @@ export default class Converter {
     return (this.mercurycon);
   }
 
+  divideAgeVenus () {
+    this.venuscon /= 0.62;
+    return (this.venuscon);
+  }
+
 }
