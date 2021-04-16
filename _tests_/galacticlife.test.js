@@ -1,18 +1,13 @@
-import Converter from './../src/galacticlife.js'
+import Age from './../src/galacticlife.js'
 
-describe ('Converter', () => {
+describe ('Age', () => {
   
-  test ('should correctly return planetary years', () => {
-  const converter = new Converter (0.24,0.62,1.88,11.86);
-  expect (converter.mercury).toEqual(0.24)
-  expect (converter.venus).toEqual(0.62)
-  expect (converter.mars).toEqual(1.88)
-  expect (converter.jupiter).toEqual(11.86)
-  });
-
-  test ('should correctly convert mercury + users age and return planetary years', () => {
-    const converter = new Converter (0.24,0.62,1.88,11.86);
-    expect (converter.addAge()).toEqual()
+  test ('should correctly create age object', () => {
+  const Age = new Age (25);
+  expect (age.conversion1).toEqual(25)
+  expect (age.conversion2).toEqual(25)
+  expect (age.conversion3).toEqual(25)
+  expect (age.conversion4).toEqual(25)
   });
 
 });
