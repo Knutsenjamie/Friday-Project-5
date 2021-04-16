@@ -26,8 +26,8 @@ describe ('Converter', () => {
   });
 
   test ('should correctly divide by jupiter planetary years and convert age', () => {
-    const converter = new Converter(25,25,25)
-    expect (converter.divideAgeJupi()).toEqual(2.107925801011804)
+    const converter = new Converter(25,25,25,25)
+    expect (converter.divideAgeJupi()).toEqual(2.1079258010118043)
   });
 
 });

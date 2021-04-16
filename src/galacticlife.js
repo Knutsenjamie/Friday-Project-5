@@ -21,4 +21,9 @@ export default class Converter {
     return (this.marscon);
   }
 
+  divideAgeJupi () {
+    this.jupitercon /= 11.86;
+    return (this.jupitercon);
+  }
+
 }
