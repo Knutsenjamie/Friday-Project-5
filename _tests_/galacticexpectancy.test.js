@@ -24,4 +24,9 @@ describe ('Expector', () => {
     const expector = new Expector (53.54,53.54,53.54)
     expect (expector.marsLifeExpect()).toEqual([-50.06127659574469, "Sorry, you'd already be dead!"])
   });
+
+  test ('should correctly return users life expectancy on jupiter', () => {
+    const expector = new Expector (53.54,53.54,53.54,53.54)
+    expect (expector.jupiterLifeExpect()).toEqual([-74.02566610455312, "Sorry, you'd already be dead!"])
+  });
 });
