@@ -16,7 +16,7 @@ describe ('Converter', () => {
   });
 
   test ('should correctly return users life expectancy on mercury', () => {
-    const converter = new Converter (53.54)
-    expect (converter.mercLifeExpect()).toEqual(223.083333333333333)
-  }
+    const converter = new Converter (53.540000000000006)
+    expect (converter.mercLifeExpect()).toEqual(223.08333333333337)
+  });
 });

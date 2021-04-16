@@ -13,4 +13,10 @@ export default class Converter {
     this.jupitercon /= 11.86;
     return ([this.mercurycon, this.venuscon, this.marscon, this.jupitercon]);
   }
+
+  mercLifeExpect () {{
+      this.mercurycon /= 0.24;
+      return (this.mercurycon)
+    }
+  }
 }
