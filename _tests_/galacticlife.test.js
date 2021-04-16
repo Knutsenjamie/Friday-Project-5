@@ -19,4 +19,9 @@ describe ('Converter', () => {
     const converter = new Converter (53.540000000000006)
     expect (converter.mercLifeExpect()).toEqual(223.08333333333337)
   });
+
+  test ('should correctly return users life expectancy on venus', () => {
+    const converter = new Converter (53.540000000000006,53.540000000000006)
+    expect (converter.venusLifeExpect()).toEqual(86.35483870967742)
+  });
 });
