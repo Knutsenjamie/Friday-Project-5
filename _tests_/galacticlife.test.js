@@ -15,13 +15,4 @@ describe ('Converter', () => {
     expect (converter.divideAge()).toEqual([104.16666666666667,40.32258064516129,13.297872340425533,2.1079258010118043])
   });
 
-  test ('should correctly return users life expectancy on mercury', () => {
-    const converter = new Converter (53.540000000000006)
-    expect (converter.mercLifeExpect()).toEqual(223.08333333333337)
-  });
-
-  test ('should correctly return users life expectancy on venus', () => {
-    const converter = new Converter (53.540000000000006,53.540000000000006)
-    expect (converter.venusLifeExpect()).toEqual(86.35483870967742)
-  });
 });
