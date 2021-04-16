@@ -1,9 +1,9 @@
 export default class Converter {
   constructor (conversion1,conversion2,conversion3,conversion4) {
-    // this.conversion1 = conversion1
-    // this.conversion2 = conversion2
-    // this.conversion3 = conversion3
-    // this.conversion4 = conversion4
+    this.conversion1 = conversion1
+    this.conversion2 = conversion2
+    this.conversion3 = conversion3
+    this.conversion4 = conversion4
 }
 
   // divideAge () {
