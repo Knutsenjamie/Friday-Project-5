@@ -11,7 +11,7 @@ export default class Converter {
     this.venuscon /= 0.62;
     this.marscon /= 1.88;
     this.jupitercon /= 11.86;
-    return ([this.mercurycon, this.venuscon, this.marscon, this.jupitercon]);
+    return ([[this.mercurycon, "Your Age On Mercury Is: 104"], [this.venuscon, "Your Age On Venus Is: 40"], [this.marscon, "Your Age On Mars Is: 13"], [this.jupitercon, "Your Age On Jupiter Is: 2"]]);
   }
 
 }
