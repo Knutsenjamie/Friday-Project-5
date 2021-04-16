@@ -5,4 +5,10 @@ export default class Expector {
     this.marsexpect = marsexpect
     this.jupiterexpect = jupiterexpect
   }
+
+  mercLifeExpect () {
+    this.mercuryexpect -= 25;
+    this.mercuryexpect /= 0.24;
+    return (this.mercuryexpect);
+  }
 }
