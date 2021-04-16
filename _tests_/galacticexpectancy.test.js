@@ -12,7 +12,11 @@ describe ('Expector', () => {
 
   test ('should correctly return users life expectancy on mercury', () => {
     const expector = new Expector (78.54)
-    expect (expector.mercLifeExpect()).toEqual(223.08333333333337)
+    expect (expector.mercLifeExpect()).toEqual(144.54333333333335)
   });
 
+  test ('should correctly return users life expectancy on venus', () => {
+    const expector = new Expector (78.54)
+    expect (expector.venusLifeExpect()).toEqual(7.814838709677419)
+  });
 });

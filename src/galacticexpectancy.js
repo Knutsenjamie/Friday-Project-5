@@ -9,6 +9,6 @@ export default class Expector {
   mercLifeExpect () {
     this.mercuryexpect -= 25;
     this.mercuryexpect /= 0.24;
-    return (this.mercuryexpect);
+    return (this.mercuryexpect -= 78.54);
   }
 }
