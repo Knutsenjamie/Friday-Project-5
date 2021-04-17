@@ -1,7 +1,7 @@
 {
-  "name": "",
+  "name": "Friday-Project-5",
   "version": "1.0.0",
-  "description": "",
+  "description": "This application was designed to show testing of functionality using Jest as well as the implementation of Webpack, ESlint, Node, and Babel",
   "main": "main.js",
   "scripts": {
     "build": "webpack --mode development",
