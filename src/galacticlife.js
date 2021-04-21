@@ -8,4 +8,13 @@ export default class Converter {
     return ([this.age, "Your Age On Mercury Is: 104"]);
   }
 
+  divideAgeVenus () {
+    this.age /= 0.62;
+    return ([this.age, "Your Age On Venus Is: 40"]);
+  }
+
+  divideAgeMars () {
+    this.age /= 1.88;
+    return ([this.age, "Your Age On Mars Is: 13"]);
+  }
 }
