@@ -17,4 +17,9 @@ export default class Converter {
     this.age /= 1.88;
     return ([this.age, "Your Age On Mars Is: 13"]);
   }
+
+  divideAgeJup () {
+    this.age /= 11.86;
+    return ([this.age, "Your Age On Jupiter Is: 2"]);
+  }
 }

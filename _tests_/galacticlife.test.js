@@ -22,4 +22,10 @@ describe ('Converter', () => {
     expect (converter.divideAgeMars()).toEqual([13.297872340425533, "Your Age On Mars Is: 13"])
   });
 
+  test ('should correctly divide by Jupiters planetary years and convert age', () => {
+    const converter = new Converter(25);
+    expect (converter.divideAgeJup()).toEqual([2.1079258010118043, "Your Age On Jupiter Is: 2"])
+  });
+
+
 });
