@@ -3,11 +3,12 @@ import Converter from './../src/galacticlife.js'
 describe ('Converter', () => {
   
   test ('should correctly create converter class/object', () => {
-  const converter = new Converter(25,25,25,25);
-  expect (converter.mercurycon).toEqual(25)
-  expect (converter.venuscon).toEqual(25)
-  expect (converter.marscon).toEqual(25)
-  expect (converter.jupitercon).toEqual(25)
+  const converter = new Converter(0.24,0.62,1.88,11.86,25);
+  expect (converter.mercurycon).toEqual(0.24)
+  expect (converter.venuscon).toEqual(0.62)
+  expect (converter.marscon).toEqual(1.88)
+  expect (converter.jupitercon).toEqual(11.86)
+  expect (converter.age).toEqual(25)
   });
 
   test ('should correctly divide by planetary years and convert age', () => {

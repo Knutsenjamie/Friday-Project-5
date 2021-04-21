@@ -4,6 +4,7 @@ export default class Expector {
     this.venusexpect = venusexpect;
     this.marsexpect = marsexpect;
     this.jupiterexpect = jupiterexpect;
+    this.age = {};
   }
 
   lifeExpect () {
