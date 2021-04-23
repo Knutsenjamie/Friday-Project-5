@@ -1,8 +1,11 @@
 export default class Expector {
-  constructor (earthLifeExpectancy) {
-    this.earthLifeExpectancy = 78.54;
+  constructor (age, earthLifeExpectancy) {
+    this.age = age;
+    this.earthLifeExpectancy = earthLifeExpectancy;
   }
 
-  
+  lifeExpectEquation() {
+  return this.age -= this.earthLifeExpectancy 
+  }
   }
 
