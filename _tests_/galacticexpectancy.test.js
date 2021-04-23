@@ -13,4 +13,8 @@ describe ('Expector', () => {
     const expector = new Expector(78.54,25);
     expect (expector.lifeExpectEquation()).toEqual(53.540000000000006)
   });
+
+  test ('should correctly return users life expectancy on all planets', () => {
+    const expector = new Expector (78.54,25)
+  });
 });

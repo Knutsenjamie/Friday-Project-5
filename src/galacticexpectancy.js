@@ -7,5 +7,8 @@ export default class Expector {
   lifeExpectEquation() {
   return this.age -= this.earthLifeExpectancy 
   }
-  }
+
+  
+}
+
 
